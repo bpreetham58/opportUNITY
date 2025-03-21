@@ -10,12 +10,12 @@ const Landing = () => {
       
       <div className="mt-8 flex space-x-4">
         <Link to="/login">
-          <button className="bg-[#4F959D] px-6 py-3 rounded-lg text-white font-semibold hover:bg-[#98D2C0]">
+          <button className="bg-[#4F959D] px-6 py-3 rounded-lg text-white font-semibold transition duration-300 hover:bg-[#76b5a9] hover:scale-105">
             Login
           </button>
         </Link>
         <Link to="/signup">
-          <button className="bg-[#98D2C0] px-6 py-3 rounded-lg text-black font-semibold hover:bg-[#4F959D]">
+          <button className="bg-[#4F959D] px-6 py-3 rounded-lg text-white font-semibold transition duration-300 hover:bg-[#76b5a9] hover:scale-105">
             Sign Up
           </button>
         </Link>
