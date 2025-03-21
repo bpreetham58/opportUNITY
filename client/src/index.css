@@ -1,7 +1,8 @@
 @import "tailwindcss";
-/* @tailwind base;
+/* src/index.css */
+@tailwind base;
 @tailwind components;
-@tailwind utilities; */
+@tailwind utilities;
 
 :root {
   --primary: #205781;
